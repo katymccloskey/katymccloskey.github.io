@@ -1,3 +1,18 @@
 body {
-  font-family: "Lucida Console", Monaco, monospace
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+#header h1 {
+  text-shadow: 2px 2px 8px blue;
+  text-transform: uppercase;
+}
+
+table {
+  padding: 20px;
+  border: 5px dashed pink;
+}
+
+#footer p {
+  text-shadow: 2px 2px 8px blue;
 }
