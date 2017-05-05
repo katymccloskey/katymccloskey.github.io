@@ -4,13 +4,13 @@ body {
 }
 
 #header h1 {
-  text-shadow: 2px 2px 8px cyan;
+  text-shadow: 2px 2px 8px deepskyblue;
   text-transform: uppercase;
 }
 
 table {
   padding: 20px;
-  border: 5px dashed pink;
+  border: 5px dashed deepskyblue;
 }
 
 #footer footer {
@@ -22,6 +22,18 @@ table {
 
 #background-image {
   background-image: url("http://eskipaper.com/images/water-background-21.jpg");
+  font-family: "Century Gothic", sans-serif;
+  font-size: 200%;
+}
 
+a:link {
+  color: blue;
+}
 
+a:visited {
+  color:purple;
+}
+
+.italic {
+  font-style: italic;
 }
