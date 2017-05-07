@@ -1,11 +1,13 @@
-body {
-  font-family: "Lucida Console", Monaco, monospace;
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
 
+body {
+  font-family:'Ravi Prakash', cursive;
 }
 
 #header h1 {
   text-shadow: 2px 2px 8px deepskyblue;
   text-transform: uppercase;
+  font-size: 100px;
 }
 
 table {
@@ -36,4 +38,9 @@ a:visited {
 
 .italic {
   font-style: italic;
+}
+
+@media all and (max-width: 599px) and (min-width: 0px) {
+    body{
+      font-size: 12px;
 }
